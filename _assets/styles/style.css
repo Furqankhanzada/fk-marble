@@ -111,27 +111,6 @@ ul li {
 
 
 
-/* ------ About-Us ------ */
-.about-us {
-    padding-top: 100px;
-    padding-bottom: 150px;
-}
-
-.about-us .about-text {
-    max-width: 800px;
-}
-
-.about-us p {
-    color: #000;
-    font-weight: 500;
-}
-
-.about-us .about-img {
-    border-radius: 20px;
-}
-
-
-
 /* ------ Products ------ */
 .marbles {
     padding-top: 100px;
@@ -240,6 +219,30 @@ ul li {
     font-weight: 500;
 }
 
+
+
+/* ------ About-Us ------ */
+.about-us {
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.about-us .about-text {
+    max-width: 800px;
+}
+
+.about-us p {
+    color: #000;
+    font-weight: 500;
+}
+
+.about-us .about-img {
+    border-radius: 20px;
+}
+
+
+
+/* ------ Footer ------ */
 footer {
     color: black;
     background-color: #bea67a;
