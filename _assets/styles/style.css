@@ -1,0 +1,313 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.custom-delay {
+    animation-delay: 0.3s;
+}
+
+.custom-delay-5s {
+    animation-delay: 0.5s;
+}
+
+.custom-delay-7s {
+    animation-delay: 0.7s;
+}
+
+.custom-toggler.navbar-toggler {
+    border: none !important;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #000;
+    opacity: 0.25;
+}
+
+.title {
+    background-image: url("https://i.ibb.co/8csTfWx/text-texture.jpg");
+    background-size: contain;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Steelfish Rg', 'helvetica neue',
+             helvetica, arial, sans-serif;
+    font-weight: 800;
+    -webkit-font-smoothing: antialiased;
+    margin-bottom: 50px;
+}
+
+button:focus {
+    outline: none !important;
+}
+
+ul li {
+    padding: 5px;
+}
+
+
+
+/* ------ Navbar ------ */
+.custom-bg {
+    transition: 500ms ease;
+    background-color: transparent !important;
+}
+
+.custom-bg.scrolled {
+    background-color: white !important;
+    box-shadow: 0 -15px 25px 0 black;
+}
+
+.custom-bg.scrolled .nav-item>a {
+    color: #000 !important;
+    text-shadow: none;
+}
+
+.nav-item>a {
+    color: #fff !important;
+    text-transform: capitalize;
+    font-size: 15px !important;
+    font-weight: 600;
+    text-shadow: 0px 0px 2px #000;
+}
+
+.nav-item>a:hover {
+    transition: 0.5s;
+    color: #bea67a !important;
+}
+
+.navbar {
+    position: fixed !important;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar ul {
+    text-align: center;
+}
+
+.navbar-brand {
+    width: 50px !important;
+    padding: 0;
+    margin-right: 0;
+}
+
+.navbar-collapse {
+    flex-direction: column;
+    flex-grow: 0 !important;
+}
+
+
+
+/* ------ About-Us ------ */
+.about-us {
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.about-us .about-text {
+    max-width: 800px;
+}
+
+.about-us p {
+    color: #000;
+    font-weight: 500;
+}
+
+.about-us .about-img {
+    border-radius: 20px;
+}
+
+
+
+/* ------ Collection ------ */
+.marbles {
+    padding-top: 100px;
+    padding-bottom: 150px;
+    background-image: url("https://i.ibb.co/YpJwJfb/marble-bg-1.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.marbles .card {
+    background: #fff;
+    cursor: default;
+}
+.marbles .card .image {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.marbles .card .image img {
+    width: 100%;
+    transition: .5s;
+}
+.marbles .card:hover .image img {
+    opacity: .5;
+    transform: translateX(30%);/*100%*/
+}
+.marbles .card .details {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;/*100%*/
+    height: 100%;
+    background: #bea67a;
+    transition: .5s;
+    transform-origin: left;
+    transform: perspective(2000px) rotateY(-90deg);
+}
+.marbles .card:hover .details {
+    transform: perspective(2000px) rotateY(0deg);
+}
+.marbles .card .details .center {
+    padding: 20px;
+    text-align: center;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.marbles .card .details .center h1 {
+    margin: 0;
+    padding: 0;
+    color: #bea67a;
+    line-height: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.marbles .card .details .center p {
+    margin: 10px 0;
+    padding: 0;
+    color: #262626;
+}
+
+
+
+/* ------ History ------ */
+.history {
+    padding-top: 100px;
+    padding-bottom: 150px;
+    background-color: #bea67a;
+    color: #000;
+}
+
+.history h5 {
+    font-size: 16px;
+}
+
+.history h6 {
+    font-size: 12px;
+}
+
+
+
+/* ------ Process ------ */
+.process {
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.process p {
+    color: #000;
+    padding-left: 210px;
+    padding-right: 210px;
+    font-weight: 500;
+}
+
+
+
+/* ------ Services ------ */
+.services {
+    padding-top: 100px;
+    padding-bottom: 150px;
+    background-color: #bea67a;
+}
+
+.services h5 {
+    font-size: 12px;
+    color: #000;
+    font-weight: 700;
+}
+
+.services h6 {
+    font-size: 12px;
+    color: #000;
+    font-weight: 500;
+}
+
+
+
+/* ------ Contact ------ */
+.contact {
+    padding-top: 100px;
+    padding-bottom: 150px;
+    background-color: #f5f5f5;
+}
+
+.contact p {
+    color: #000;
+    padding-left: 210px;
+    padding-right: 210px;
+    font-weight: 500;
+}
+
+footer {
+    color: black;
+    background-color: #bea67a;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+    .custom-bg {
+        background-color: white !important;
+    }
+
+    .about-us p {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .process p {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .contact p {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+    .professional-skills {
+        width: 100%;
+    }
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    footer {
+        font-size: 12px;
+    }
+}
