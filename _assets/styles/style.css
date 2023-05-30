@@ -220,6 +220,11 @@ ul li {
     font-weight: 500;
 }
 
+.contact .social-icons i {
+    font-size: 50px;
+    margin: 0 20px;
+}
+
 
 
 /* ------ About-Us ------ */
