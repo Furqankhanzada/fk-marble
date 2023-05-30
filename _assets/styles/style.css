@@ -132,7 +132,7 @@ ul li {
 
 
 
-/* ------ Collection ------ */
+/* ------ Products ------ */
 .marbles {
     padding-top: 100px;
     padding-bottom: 150px;
@@ -144,57 +144,30 @@ ul li {
     background-size: cover;
 }
 
-.marbles .card {
-    background: #fff;
-    cursor: default;
-}
-.marbles .card .image {
-    width: 100%;
-    height: 100%;
+.marbles .marble-image-box {
+    position: relative;
+    margin: auto;
     overflow: hidden;
-}
-.marbles .card .image img {
     width: 100%;
-    transition: .5s;
 }
-.marbles .card:hover .image img {
-    opacity: .5;
-    transform: translateX(30%);/*100%*/
+.marbles .marble-image-box img {
+    height: auto;
+    max-width: 100%;
+    width: 100%;
+    transition: all 0.5s;
+    display: block;
+    transform: scale(1);
 }
-.marbles .card .details {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 70%;/*100%*/
-    height: 100%;
-    background: #bea67a;
-    transition: .5s;
-    transform-origin: left;
-    transform: perspective(2000px) rotateY(-90deg);
+
+.marbles .marble-image-box:hover img {
+    transform: scale(1.25);
 }
-.marbles .card:hover .details {
-    transform: perspective(2000px) rotateY(0deg);
-}
-.marbles .card .details .center {
-    padding: 20px;
-    text-align: center;
-    background: #fff;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-}
-.marbles .card .details .center h1 {
-    margin: 0;
-    padding: 0;
-    color: #bea67a;
-    line-height: 20px;
-    font-size: 20px;
-    text-transform: uppercase;
-}
-.marbles .card .details .center p {
-    margin: 10px 0;
-    padding: 0;
-    color: #262626;
+
+.marbles .marble-caption {
+    background-color: #bea67a;
+    width: 100%;
+    margin-bottom: 30px;
+    font-weight: 600;
 }
 
 
