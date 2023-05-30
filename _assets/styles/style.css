@@ -111,6 +111,22 @@ ul li {
 
 
 
+/* Carousel */
+.carousel-inner {
+    height: 100vh;
+    overflow: hidden;
+}
+.carousel-item {
+    height: 100vh;
+}
+.carousel-caption h1,
+.carousel-caption h5 {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+
 /* ------ Products ------ */
 .marbles {
     padding-top: 100px;
