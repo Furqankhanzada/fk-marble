@@ -252,9 +252,60 @@ ul li {
 footer {
     color: black;
     background-color: #bea67a;
+}
+
+footer .logo {
+    max-width: 100px;
+}
+
+footer .copyright-text {
     font-size: 14px;
     text-align: center;
     font-weight: 600;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer li {
+    padding-left: 0;
+}
+
+footer a {
+    color: #000;
+    text-decoration: none !important;
+    transition: all 0.25s;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: default;
+}
+
+footer li .icon-container {
+    min-width: 20px;
+    min-height: 20px;
+    margin-right: 5px;
+}
+
+footer li i {
+    font-size: 20px !important;
+    margin-top: 2px;
+}
+
+footer .socials .social-icon i {
+    font-size: 35px;
+    margin-right: 10px;
 }
 
 
