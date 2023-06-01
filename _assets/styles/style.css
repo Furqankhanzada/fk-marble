@@ -111,13 +111,13 @@ ul li {
 
 
 
-/* Carousel */
+/* ------ Carousel ------ */
 .carousel-inner {
     height: 100vh;
     overflow: hidden;
 }
 .carousel-item {
-    height: 100vh;
+    height: 100%;
 }
 .carousel-caption h1,
 .carousel-caption h5 {
@@ -332,8 +332,16 @@ footer .socials .social-icon i {
 }
 
 
+
 /*Medium devices (tablets, less than 992px)*/
 @media (max-width: 991.98px) {
+    .title {
+        font-size: 54px;
+    }
+
+
+
+    /* ------ Navbar ------ */
     .custom-bg {
         background-color: white !important;
     }
@@ -342,6 +350,21 @@ footer .socials .social-icon i {
         color: #000 !important;
         text-shadow: none;
     }
+
+
+
+    /* ------ Carousel ------ */
+    .carousel-inner {
+        height: 85vh;
+    }
+    .carousel-caption h1 {
+        font-size: 30px;
+    }
+    .carousel-caption h5 {
+        font-size: 17px;
+    }
+
+
 
     .about-us p {
         padding-left: 0;
@@ -359,15 +382,51 @@ footer .socials .social-icon i {
     }
 }
 
+
+
 /*Small devices (landscape phones, less than 768px)*/
 @media (max-width: 767.98px) {
-    .professional-skills {
-        width: 100%;
+    .title {
+        font-size: 48px;
+    }
+
+
+
+    /* ------ Carousel ------ */
+    .carousel-inner {
+        height: 70vh;
+    }
+    .carousel-caption h1 {
+        font-size: 27px;
+    }
+    .carousel-caption h5 {
+        font-size: 15px;
     }
 }
 
+
+
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
+    .title {
+        font-size: 42px;
+    }
+
+
+
+    /* ------ Carousel ------ */
+    .carousel-inner {
+        height: 55vh;
+    }
+    .carousel-caption h1 {
+        font-size: 24px;
+    }
+    .carousel-caption h5 {
+        font-size: 12px;
+    }
+
+
+
     footer {
         font-size: 12px;
     }
