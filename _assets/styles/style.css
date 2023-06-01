@@ -427,6 +427,16 @@ footer .socials .social-icon i {
 
 
 
+    /* ------ Products ------ */
+    .marbles .nav-tabs {
+        flex-direction: column;
+    }
+    .marbles .nav-tabs li {
+        margin-bottom: 20px;
+    }
+
+
+
     footer {
         font-size: 12px;
     }
