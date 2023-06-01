@@ -338,6 +338,11 @@ footer .socials .social-icon i {
         background-color: white !important;
     }
 
+    .custom-bg .nav-item>a {
+        color: #000 !important;
+        text-shadow: none;
+    }
+
     .about-us p {
         padding-left: 0;
         padding-right: 0;
