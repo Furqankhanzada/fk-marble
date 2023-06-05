@@ -8,6 +8,26 @@
     font-weight: 800;
 }
 
+.details .social-icons {
+    font-size: 35px;
+}
+
+.details .social-icons i {
+    margin-left: 10px;
+}
+.details .social-icons i.fa-whatsapp {
+    color: #25D366;
+}
+.details .social-icons i.fa-phone {
+    color: #3e65cf;
+}
+.details .social-icons i.fa-envelope {
+    color: #c71610;
+}
+
+
+
+
 .info-section .marbles-list {
     list-style: none;
     padding: 0;
