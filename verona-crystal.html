@@ -16,6 +16,16 @@
     <script src="_assets/js/popper.min.js"></script>
     <script src="_assets/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+        function doMath() {
+            var pricePerSqFt = 130;
+            var squareFeets = document.getElementById('squareFeets').value;
+            var total = parseInt(pricePerSqFt) * parseInt(squareFeets);
+
+            var totalPriceContainer = document.getElementById('totalPrice');
+            totalPriceContainer.innerHTML = total;
+        }
+    </script>
 </head>
 
 <body>
@@ -61,12 +71,12 @@
                 <div class="col-12 mb-5">
                     <h1 class="title wow fadeInUp">Verona Crystal Marble</h1>
                 </div>
-                <div class="col-12 col-md-6 mb-5 mb-md-0 text-center">
+                <div class="col-12 col-md-5 mb-5 mb-md-0 text-center">
                     <div class="marble-image">
                         <img class="img-fluid" src="_assets/images/marbles/verona-crystal.jpg" alt="Marble" />
                     </div>
                 </div>
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-7">
                     <div class="details">
                         <h6 class="name">Verona Crystal</h6>
                         <h6 class="price mt-2">Rs 130 per square feet</h6>
@@ -90,6 +100,30 @@
                                 <i class="wow fadeInUp fa fa-envelope"></i>
                             </a>
                         </div>
+
+                        <h5 class="mt-5 mb-4 calculate-title">
+                            Calculate the approximate price according to the amount of tiles you want to
+                            purchase:
+                        </h5>
+                        <form>
+                            <div class="row">
+                                <div class="col-5">
+                                    Price per square feet <span>Rs 130</span>
+                                </div>
+                                <div class="col-1">
+                                    X
+                                </div>
+                                <div class="col-3">
+                                    <input placeholder="square feets" id="squareFeets" type="text" name="num1">
+                                </div>
+                                <div class="col-3">
+                                    <input type="button" value="Calculate" onclick="doMath()" />
+                                </div>
+                            </div>
+                        </form>
+                        <h5 class="mt-4">
+                            Total Price: <span id="totalPrice"></span>
+                        </h5>
                     </div>
                 </div>
             </div>
