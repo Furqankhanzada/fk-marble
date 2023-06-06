@@ -105,18 +105,21 @@
                             Calculate the approximate price according to the amount of tiles you want to
                             purchase:
                         </h5>
-                        <form>
-                            <div class="row">
-                                <div class="col-5">
-                                    Price per square feet <span>Rs 130</span>
+                        <form class="calculator-form">
+                            <div class="d-flex flex-wrap">
+                                <div class="col-12 col-lg-5 d-flex justify-content-center align-items-center pt-3 pt-lg-0">
+                                    <div class="price-text">
+                                        Per square feet: <span>Rs 130</span>
+                                    </div>
                                 </div>
-                                <div class="col-1">
+                                <div class="col-12 col-lg-1 d-flex justify-content-center align-items-center font-weight-bold">
                                     X
                                 </div>
-                                <div class="col-3">
-                                    <input placeholder="square feets" id="squareFeets" type="text" name="num1">
+                                <div class="col-12 col-lg-3 d-flex justify-content-center align-items-center pt-2 pt-lg-3 pb-3">
+                                    <input class="square-feets-input" placeholder="square feets" id="squareFeets"
+                                        type="text" name="num1">
                                 </div>
-                                <div class="col-3">
+                                <div class="col-12 col-lg-3 d-flex justify-content-center align-items-center position-relative pb-3 pb-lg-0">
                                     <input type="button" value="Calculate" onclick="doMath()" />
                                 </div>
                             </div>
