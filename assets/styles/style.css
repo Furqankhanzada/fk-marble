@@ -118,7 +118,7 @@ ul li {
 
 
 /* ------ Carousel ------ */
-.carousel-inner {
+.main-carousel .carousel-inner {
     height: 100vh;
     overflow: hidden;
 }
@@ -186,7 +186,6 @@ ul li {
     background-color: #bea67a;
     color: #000;
     text-decoration: none;
-    border-radius: 5px;
     padding: 10px;
     font-size: 16px;
     font-weight: 600;
@@ -365,7 +364,7 @@ footer .socials .social-icon i {
 
 
     /* ------ Carousel ------ */
-    .carousel-inner {
+    .main-carousel .carousel-inner {
         height: 85vh;
     }
     .carousel-caption h1 {
@@ -399,7 +398,7 @@ footer .socials .social-icon i {
 
 
     /* ------ Carousel ------ */
-    .carousel-inner {
+    .main-carousel .carousel-inner {
         height: 70vh;
     }
     .carousel-caption h1 {
@@ -421,7 +420,7 @@ footer .socials .social-icon i {
 
 
     /* ------ Carousel ------ */
-    .carousel-inner {
+    .main-carousel .carousel-inner {
         height: 55vh;
     }
     .carousel-caption h1 {

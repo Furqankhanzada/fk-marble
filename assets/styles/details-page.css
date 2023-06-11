@@ -3,6 +3,47 @@
     padding-bottom: 150px;
 }
 
+.product-details .carousel-inner img {
+    width: 100%;
+    height: auto;
+}
+
+#custCarousel .carousel-indicators {
+    position: static;
+    margin-top: 20px;
+}
+
+#custCarousel .carousel-indicators>li {
+    width: 100px;
+    height: auto;
+}
+
+#custCarousel .carousel-indicators li img {
+    display: block;
+    opacity: 0.8;
+}
+
+#custCarousel .carousel-indicators li.active img {
+    opacity: 1;
+}
+
+#custCarousel .carousel-indicators li:hover img {
+    opacity: 1;
+}
+
+#custCarousel .magnify-large {
+    width: 150px;
+    height: 200px;
+
+    -webkit-box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 0 0 7px 7px rgba(0, 0, 0, 0.25), inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 0 0 7px 7px rgba(0, 0, 0, 0.25), inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 0 0 7px 7px rgba(0, 0, 0, 0.25), inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
 .details .name {
     font-size: 20px;
     font-weight: 800;
@@ -15,16 +56,55 @@
 .details .social-icons i {
     margin-left: 10px;
 }
+
 .details .social-icons i.fa-whatsapp {
     color: #25D366;
 }
+
 .details .social-icons i.fa-phone {
     color: #3e65cf;
 }
+
 .details .social-icons i.fa-envelope {
     color: #c71610;
 }
 
+.details .calculate-title {
+    color: #bea67a;
+    font-weight: 800;
+    text-shadow: 0px 0px 3px lightgray;
+}
+
+.details .calculator-form {
+    background-color: #bea67a;
+    cursor: default;
+    overflow: hidden;
+}
+
+.details .calculator-form .price-text {
+    font-style: 15px;
+    font-weight: 600;
+    color: #000;
+}
+
+.details .calculator-form .price-text span {
+    margin-left: 5px;
+    font-weight: 700;
+    text-shadow: 0px 0px 4px #000;
+    color: #fff;
+}
+
+.details .calculator-form .square-feets-input {
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 30px;
+    padding: 5px;
+}
+
+.details #priceText {
+    display: none;
+}
 
 
 
