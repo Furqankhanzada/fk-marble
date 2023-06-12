@@ -106,6 +106,10 @@
     display: none;
 }
 
+.details #priceText span {
+    margin-left: 10px;
+}
+
 
 
 .info-section .marbles-list {
