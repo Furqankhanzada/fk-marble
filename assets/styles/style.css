@@ -199,24 +199,6 @@ ul li {
 
 
 
-/* ------ History ------ */
-.history {
-    padding-top: 100px;
-    padding-bottom: 150px;
-    background-color: #bea67a;
-    color: #000;
-}
-
-.history h5 {
-    font-size: 16px;
-}
-
-.history h6 {
-    font-size: 12px;
-}
-
-
-
 /* ------ Process ------ */
 .process {
     padding-top: 100px;
