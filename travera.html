@@ -20,14 +20,18 @@
     <script src="assets/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script>
+        function commaSeparatedPrice(value) {
+            return value.toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",");
+        }
+
         let squareFeets;
         $(document).on('keyup mouseup', '#squareFeets', function calculate(e) {
             squareFeets = e.target.value;
-            const pricePerSqFt = 55;
+            const pricePerSqFt = 130;
             const total = parseInt(pricePerSqFt) * parseInt(squareFeets);
 
             const totalPriceContainer = document.getElementById('totalPrice');
-            totalPriceContainer.innerHTML = total;
+            totalPriceContainer.innerHTML = 'Rs. ' + commaSeparatedPrice(total);
 
             const priceText = document.getElementById('priceText');
 
