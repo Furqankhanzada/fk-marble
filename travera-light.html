@@ -27,7 +27,7 @@
         let squareFeets;
         $(document).on('keyup mouseup', '#squareFeets', function calculate(e) {
             squareFeets = e.target.value;
-            const pricePerSqFt = 130;
+            const pricePerSqFt = 50;
             const total = parseInt(pricePerSqFt) * parseInt(squareFeets);
 
             const totalPriceContainer = document.getElementById('totalPrice');
